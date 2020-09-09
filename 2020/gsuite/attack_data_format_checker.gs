@@ -149,31 +149,9 @@ function sendMessage(teamId, mailMessage){
   
   // 対応表を作る
   var TeamIdAccountList = {
-    '01' : 'adad0405+pwscup2020@gmail.com',
-    '02' : 'sengpei.liew@gmail.com',
-    '03' : 'nakagawa.takuma.ym3@jp.nssol.nipponsteel.com',
-    '04' : 'w93w93@gmail.com',
-    '05' : 'l1000137www.am06@nctu.edu.tw',
-    '06' : 'takayuki.miura.br@hco.ntt.co.jp',
-    '07' : 'b706ceb7.ab.MitsubishiElectric.co.jp@apac.teams.ms',
-    '08' : 'muts.tamai@gmail.com',
-    '10' : 'koji.chida.eb@hco.ntt.co.jp',
-    '11' : 'alxxrg@gmail.com',
-    '12' : 'koki.hamada.rb@hco.ntt.co.jp',
-    '13' : 'shogo.kitajima@mixi.co.jp',
-    '14' : 'suganuma@sec.inf.shizuoka.ac.jp',
-    '15' : 'kitagawa.takumi.15@shizuoka.ac.jp',
-    '16' : 'mmhm@meiji.ac.jp',
-    '17' : 'privacy-consulting-ml@nttdocomo.com',
-    '18' : 'ishihara@kde.cs.tsukuba.ac.jp',
-    '19' : 'gentarouka@hotmail.co.jp',
-    '21' : 'maeda.wakana@fujitsu.com',
-    '22' : 'sakamoto@datasign.jp',
-    '23' : 'makoto.iguchi@kii.com',
-    '24' : 'adad0405+pwscup2020dummy2@gmail.com',
-    '25' : 'adad0405+pwscup2020dummy3@gmail.com',
-    '26' : 'adad0405+pwscup2020dummy4@gmail.com',
-    '27' : 'marcel.rasinger@mostly.ai'
+    '01' : 'hogehoge@gmail.com',
+    '02' : 'hogehoge@gmail.com'
+    // ID-メールアドレスの対応表を作成する
   }
   
   // メールを送る
