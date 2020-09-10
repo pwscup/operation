@@ -18,6 +18,9 @@ function AddTimestampToFileName(e) {
   itemResponse = itemResponses[0];
   var fileIdList = itemResponse.getResponse();
   
+  // fileIdListの長さ...は今回は複数でいい
+  // 1つだけに限るなら、fileIdList.length > 1ならエラーにする
+  
   // formatCheckから出力されるメッセージを連結して、通知内容を組み立てる
   var message = '';
   for(var i = 0; i < fileIdList.length; i++){
